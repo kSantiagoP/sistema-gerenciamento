@@ -56,8 +56,8 @@ function FiltroUser(props){
         let Resultado = dadosGrid;
         
         Resultado = NomeBusca ? Resultado.filter(dado => dado.nome.includes(NomeBusca)) : Resultado;
-        Resultado = EmailBusca ? Resultado.filter(dado => dado.nome.includes(NomeBusca)) : Resultado;
-        Resultado = TelefoneBusca ? Resultado.filter(dado => dado.nome.includes(NomeBusca)) : Resultado;
+        Resultado = EmailBusca ? Resultado.filter(dado => dado.email.includes(EmailBusca)) : Resultado;
+        Resultado = TelefoneBusca ? Resultado.filter(dado => dado.telefone.includes(TelefoneBusca)) : Resultado;
 
         props.filtroCallback(Resultado);
     }
