@@ -1,6 +1,6 @@
 Sistema de Gerenciamento de Clientes
 
-Para rodar, rode o servidor backend (sistema-gerenciamento1) com o comando "node ./app.js" com o powershell ou terminal do VSCode na pasta raiz do repositório respectivo. 
+Para rodar, rode o servidor backend (sistema-gerenciamento1) com o comando "node .\app.js" com o powershell ou terminal do VSCode na pasta raiz do repositório respectivo. 
 Rode o servidor frontend (sistema-gerenciamento) com o comando "npm start" com o powershell ou terminal do VSCode na pasta raiz do repositório respectivo.
 Importante, também, rodar o DDL no postgres para a criação do banco de dados, presente no repositório sistema-gerenciamento1 (./sql/dbGerenciamento.sql).
 
