@@ -16,18 +16,6 @@ const RotaText = styled.h2`
 
 
 
-/*
-const handlerClick = (event) => {
-  fetchClientes();
-
-  console.log(marcos);
-  async function fetchClientes(){
-      const clientesAPI = await getClientes();
-      marcos = calculaRota(clientesAPI);
-  }
-}
-*/
-
 function Rota() {
 
   return (
